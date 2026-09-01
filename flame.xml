@@ -1,1 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
 
+    <!-- Xiaomi Flame -->
+    <project
+        name="bitstash-io/device_xiaomi_flame"
+        path="device/xiaomi/flame"
+        revision="lineage-23.2" />
+
+    <!-- Xiaomi Flame vendor -->
+    <project
+        name="bitstash-io/vendor_xiaomi_flame"
+        path="vendor/xiaomi/flame"
+        revision="lineage-23.2" />
+
+    <!-- Xiaomi Flame kernel -->
+    <project
+        name="bitstash-io/device_xiaomi_flame-kernel"
+        path="device/xiaomi/flame-kernel"
+        revision="lineage-23.2" />
+
+    <!-- Xiaomi device firmware -->
+    <project
+        name="bitstash-io/vendor_xiaomi_flame-firmware"
+        path="vendor/xiaomi/device-firmware"
+        revision="lineage-23.2" />
+
+</manifest>
