@@ -3,10 +3,9 @@
 <manifest>
 
     <project
-        name="bitstash-io/device_xiaomi_flame"
-        path="device/xiaomi/flame"
-        revision="lineage-23.2" />
-
+    name="dthakor1555-png/device_xiaomi_flame"
+    path="device/xiaomi/flame"
+    revision="lineage-23.2" />
     <project
         name="bitstash-io/vendor_xiaomi_flame"
         path="vendor/xiaomi/flame"
