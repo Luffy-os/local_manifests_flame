@@ -21,4 +21,9 @@
         path="vendor/xiaomi/device-firmware"
         revision="main" />
 
+    <project
+    name="LineageOS/android_hardware_xiaomi"
+    path="hardware/xiaomi"
+    revision="lineage-23.2" />
+
 </manifest>
