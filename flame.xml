@@ -3,7 +3,7 @@
 <manifest>
 
     <project
-    name="dthakor1555-png/device_xiaomi_flame"
+    name="Luffy-os/device_xiaomi_flame"
     path="device/xiaomi/flame"
     revision="lineage-23.2" />
     <project
