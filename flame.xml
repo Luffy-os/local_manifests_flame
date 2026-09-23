@@ -41,9 +41,6 @@
         name="hardware_dolby"
         remote="dolby"
         revision="lunaris"/>
-    <project path="hardware/qcom/wlan"
-    name="android_hardware_qcom_wlan"
-    remote="LOS"
-    revision="lineage-24.0"/>
+    
 
 </manifest>
