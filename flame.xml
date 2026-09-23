@@ -19,7 +19,7 @@
 
     <project path="device/xiaomi/flame"
         name="device_xiaomi_flame"
-        remote="astechpro20"
+        remote="Luffy-os"
         revision="lineage-24.0"/>
 
     <project path="vendor/xiaomi/flame"
