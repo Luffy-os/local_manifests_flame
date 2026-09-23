@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remote name="astechpro20"
-        fetch="https://github.com/AsTechpro20"
+    <remote name="Luffy-os"
+        fetch="https://github.com/Luffy-os"
         revision="lineage-24.0"/>
 
     <remote name="bitstash"
