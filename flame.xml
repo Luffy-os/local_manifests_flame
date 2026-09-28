@@ -1,46 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remote name="Luffy-os"
-        fetch="https://github.com/Luffy-os"
-        revision="lineage-24.0"/>
+    <project
+        name="AsTechpro20/device_xiaomi_flame"
+        path="device/xiaomi/flame"
+        revision="lineage-24.0"
+        remote="github" />
 
-    <remote name="bitstash"
-        fetch="https://github.com/bitstash-io"
-        revision="lineage-23.2"/>
+    <project
+        name="AsTechpro20/device_xiaomi_flame-kernel"
+        path="device/xiaomi/flame-kernel"
+        revision="lineage-23.1"
+        remote="github" />
 
-    <remote name="LOS"
-        fetch="https://github.com/LineageOS"
-        revision="lineage-24.0"/>
-
-    <remote name="dolby"
-        fetch="https://github.com/adi8900"
-        revision="lunaris"/>
-
-    <project path="device/xiaomi/flame"
-        name="device_xiaomi_flame"
-        remote="Luffy-os"
-        revision="lineage-24.0"/>
-
-    <project path="vendor/xiaomi/flame"
-        name="vendor_xiaomi_flame"
-        remote="bitstash"
-        revision="lineage-23.2"/>
-
-    <project path="device/xiaomi/flame-kernel"
-        name="device_xiaomi_flame-kernel"
-        remote="bitstash"
-        revision="lineage-23.2"/>
-
-    <project path="hardware/xiaomi"
-        name="android_hardware_xiaomi"
-        remote="LOS"
-        revision="lineage-24.0"/>
-
-    <project path="hardware/dolby"
-        name="hardware_dolby"
-        remote="dolby"
-        revision="lunaris"/>
-    
+    <project
+        name="AsTechpro20/vendor_xiaomi_flame"
+        path="vendor/xiaomi/flame"
+        revision="lineage-23.2"
+        remote="github" />
 
 </manifest>
