@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-    <project
-        name="flame4blame/android_device_xiaomi_flame"
-        path="device/xiaomi/flame"
-        revision="lineage-24.0" />
-
-    <project
-        name="flame4blame/android_device_xiaomi_flame-kernel"
-        path="device/xiaomi/flame-kernel"
-        revision="lineage-24.0" />
-
-    <project
-        name="flame4blame/proprietary_vendor_xiaomi_flame"
-        path="vendor/xiaomi/flame"
-        revision="lineage-24.0" />
-
+  <project name="flame4blame/android_device_xiaomi_flame"
+           path="device/xiaomi/flame"
+           revision="lineage-24.0" />
+  <project name="flame4blame/android_device_xiaomi_flame-kernel"
+           path="device/xiaomi/flame-kernel"
+           revision="lineage-24.0" />
+  <project name="flame4blame/proprietary_vendor_xiaomi_flame"
+           path="vendor/xiaomi/flame"
+           revision="lineage-24.0" />
 </manifest>
