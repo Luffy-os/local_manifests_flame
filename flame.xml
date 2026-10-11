@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote
-        name="github"
-        fetch="https://github.com/" />
+        name="flame4blame"
+        fetch="https://github.com/flame4blame" />
 
     <project
+        name="android_device_xiaomi_flame"
         path="device/xiaomi/flame"
-        name="flame4blame/android_device_xiaomi_flame"
-        revision="lineage-24.0"
-        remote="github" />
+        remote="flame4blame"
+        revision="lineage-24.0" />
 
     <project
-        path="device/xiaomi/flame-kernel"
-        name="flame4blame/android_device_xiaomi_flame-kernel"
-        revision="lineage-24.0"
-        remote="github" />
-
-    <project
+        name="proprietary_vendor_xiaomi_flame"
         path="vendor/xiaomi/flame"
-        name="flame4blame/proprietary_vendor_xiaomi_flame"
-        revision="lineage-24.0"
-        remote="github" />
+        remote="flame4blame"
+        revision="lineage-24.0" />
+
+    <project
+        name="android_device_xiaomi_flame-kernel"
+        path="device/xiaomi/flame-kernel"
+        remote="flame4blame"
+        revision="lineage-24.0" />
 </manifest>
