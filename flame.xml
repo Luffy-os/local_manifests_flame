@@ -21,4 +21,10 @@
         path="device/xiaomi/flame-kernel"
         remote="flame4blame"
         revision="lineage-24.0" />
+
+    <project
+    name="android_hardware_xiaomi"
+    path="hardware/xiaomi"
+    remote="github"
+    revision="seventeen" />
 </manifest>
