@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <!-- Device repositories -->
     <remote
         name="flame4blame"
         fetch="https://github.com/flame4blame" />
@@ -22,9 +23,14 @@
         remote="flame4blame"
         revision="lineage-24.0" />
 
+    <!-- PixelOS Xiaomi hardware -->
+    <remote
+        name="pixelos"
+        fetch="https://github.com/PixelOS-AOSP" />
+
     <project
-    name="android_hardware_xiaomi"
-    path="hardware/xiaomi"
-    remote="github"
-    revision="seventeen" />
+        name="android_hardware_xiaomi"
+        path="hardware/xiaomi"
+        remote="pixelos"
+        revision="seventeen" />
 </manifest>
