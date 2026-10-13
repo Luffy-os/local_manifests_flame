@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- Device repositories -->
+
+    <!-- Your forked device tree -->
     <remote
-        name="flame4blame"
-        fetch="https://github.com/flame4blame" />
+        name="luffy"
+        fetch="https://github.com/Luffy-os" />
 
     <project
         name="android_device_xiaomi_flame"
         path="device/xiaomi/flame"
-        remote="flame4blame"
+        remote="luffy"
         revision="lineage-24.0" />
+
+    <!-- Original vendor repository -->
+    <remote
+        name="flame4blame"
+        fetch="https://github.com/flame4blame" />
 
     <project
         name="proprietary_vendor_xiaomi_flame"
@@ -17,6 +23,7 @@
         remote="flame4blame"
         revision="lineage-24.0" />
 
+    <!-- Original kernel repository -->
     <project
         name="android_device_xiaomi_flame-kernel"
         path="device/xiaomi/flame-kernel"
@@ -33,4 +40,5 @@
         path="hardware/xiaomi"
         remote="pixelos"
         revision="seventeen" />
+
 </manifest>
