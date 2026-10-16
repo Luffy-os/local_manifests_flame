@@ -1,44 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!-- Your forked device tree -->
-    <remote
-        name="luffy"
-        fetch="https://github.com/Luffy-os" />
+    <!-- Redmi 14C 5G (flame) device tree -->
+    <remote name="luffy" fetch="https://github.com/Luffy-os" />
+    <project name="android_device_xiaomi_flame"
+             path="device/xiaomi/flame"
+             remote="luffy"
+             revision="lineage-24.0" />
 
-    <project
-        name="android_device_xiaomi_flame"
-        path="device/xiaomi/flame"
-        remote="luffy"
-        revision="lineage-24.0" />
+    <!-- Device vendor blobs -->
+    <remote name="flame4blame" fetch="https://github.com/flame4blame" />
+    <project name="proprietary_vendor_xiaomi_flame"
+             path="vendor/xiaomi/flame"
+             remote="flame4blame"
+             revision="lineage-24.0" />
 
-    <!-- Original vendor repository -->
-    <remote
-        name="flame4blame"
-        fetch="https://github.com/flame4blame" />
+    <!-- Device kernel -->
+    <project name="android_device_xiaomi_flame-kernel"
+             path="device/xiaomi/flame-kernel"
+             remote="flame4blame"
+             revision="lineage-24.0" />
 
-    <project
-        name="proprietary_vendor_xiaomi_flame"
-        path="vendor/xiaomi/flame"
-        remote="flame4blame"
-        revision="lineage-24.0" />
-
-    <!-- Original kernel repository -->
-    <project
-        name="android_device_xiaomi_flame-kernel"
-        path="device/xiaomi/flame-kernel"
-        remote="flame4blame"
-        revision="lineage-24.0" />
-
-    <!-- PixelOS Xiaomi hardware -->
-    <remote
-        name="pixelos"
-        fetch="https://github.com/PixelOS-AOSP" />
-
-    <project
-        name="android_hardware_xiaomi"
-        path="hardware/xiaomi"
-        remote="pixelos"
-        revision="seventeen" />
+    <!-- Evolution X Xiaomi hardware support for Android 17 (cnb) -->
+    <remote name="evox" fetch="https://github.com/Evolution-X-Devices" />
+    <project name="hardware_xiaomi"
+             path="hardware/xiaomi"
+             remote="evox"
+             revision="cnb" />
 
 </manifest>
