@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
     <!-- Redmi 14C 5G (flame) device tree -->
     <remote name="luffy" fetch="https://github.com/Luffy-os" />
     <project name="android_device_xiaomi_flame"
@@ -20,12 +19,4 @@
              path="device/xiaomi/flame-kernel"
              remote="flame4blame"
              revision="lineage-24.0" />
-
-    <!-- Evolution X Xiaomi hardware support for Android 17 (cnb) -->
-    <remote name="evox" fetch="https://github.com/Evolution-X-Devices" />
-    <project name="hardware_xiaomi"
-             path="hardware/xiaomi"
-             remote="evox"
-             revision="cnb" />
-
 </manifest>
